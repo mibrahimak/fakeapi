@@ -1,93 +1,62 @@
-[
-  {
-    "id": 1,
-    "title": "Ege Esintisi: Modern Taş Villa",
-    "type": "Villa",
-    "status": "Satılık",
-    "price": 12500000,
-    "currency": "TRY",
-    "location": {
+{
+  "listings": [
+    {
+      "id": 1,
+      "title": "Ege Esintisi: Modern Taş Villa",
+      "type": "Villa",
+      "price": 12500000,
       "city": "Muğla",
       "district": "Bodrum",
-      "address": "Yalıkavak Marina Mevkii"
-    },
-    "details": {
-      "sq_meter": 240,
       "rooms": "4+1",
-      "bathrooms": 3,
-      "age": 2,
-      "floor": "Müstakil",
-      "heating": "Yerden Isıtma"
+      "sq_meter": 240,
+      "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80"
     },
-    "amenities": ["Havuz", "Bahçe", "Akıllı Ev Sistemi", "Otopark"],
-    "images": [
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80"
-    ],
-    "agent": {
-      "name": "Selin Deniz",
-      "rating": 4.8
-    },
-    "created_at": "2024-03-15T10:30:00Z"
-  },
-  {
-    "id": 2,
-    "title": "Nişantaşı Merkezde Lüks Rezidans",
-    "type": "Daire",
-    "status": "Kiralık",
-    "price": 85000,
-    "currency": "TRY",
-    "location": {
+    {
+      "id": 2,
+      "title": "Nişantaşı Lüks Rezidans",
+      "type": "Daire",
+      "price": 85000,
       "city": "İstanbul",
       "district": "Şişli",
-      "address": "Abdi İpekçi Caddesi"
-    },
-    "details": {
-      "sq_meter": 160,
       "rooms": "3+1",
-      "bathrooms": 2,
-      "age": 0,
-      "floor": "12",
-      "heating": "Merkezi"
+      "sq_meter": 160,
+      "image": "https://images.unsplash.com/photo-1567496898669-ee935f5f647a?auto=format&fit=crop&w=800&q=80"
     },
-    "amenities": ["Spor Salonu", "7/24 Güvenlik", "Kapalı Otopark", "Concierge"],
-    "images": [
-      "https://images.unsplash.com/photo-1567496898669-ee935f5f647a?auto=format&fit=crop&w=800&q=80"
-    ],
-    "agent": {
-      "name": "Murat Kaya",
-      "rating": 4.5
-    },
-    "created_at": "2024-03-18T14:20:00Z"
-  },
-  {
-    "id": 3,
-    "title": "Doğa İçinde Loft Tasarımlı Orman Evi",
-    "type": "Müstakil",
-    "status": "Satılık",
-    "price": 7250000,
-    "currency": "TRY",
-    "location": {
+    {
+      "id": 3,
+      "title": "Doğa İçinde Loft Orman Evi",
+      "type": "Müstakil",
+      "price": 7250000,
       "city": "Bolu",
       "district": "Merkez",
-      "address": "Abant Gölü Yolu"
-    },
-    "details": {
-      "sq_meter": 110,
       "rooms": "1+1",
-      "bathrooms": 1,
-      "age": 5,
-      "floor": "Giriş",
-      "heating": "Şömine + Klima"
+      "sq_meter": 110,
+      "image": "https://images.unsplash.com/photo-1449156740341-216963197ef7?auto=format&fit=crop&w=800&q=80"
     },
-    "amenities": ["Veranda", "Şömine", "Doğa Manzarası", "Geniş Bahçe"],
-    "images": [
-      "https://images.unsplash.com/photo-1449156740341-216963197ef7?auto=format&fit=crop&w=800&q=80"
-    ],
-    "agent": {
-      "name": "Elif Orman",
-      "rating": 4.9
+    {
+      "id": 4,
+      "title": "Deniz Manzaralı Dubleks",
+      "type": "Daire",
+      "price": 5400000,
+      "city": "Antalya",
+      "district": "Konyaaltı",
+      "rooms": "3+2",
+      "sq_meter": 200,
+      "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80"
     },
-    "created_at": "2024-03-20T09:00:00Z"
+    {
+      "id": 5,
+      "title": "Tarihi Rum Evi",
+      "type": "Müstakil",
+      "price": 9800000,
+      "city": "İzmir",
+      "district": "Urla",
+      "rooms": "5+1",
+      "sq_meter": 300,
+      "image": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=800&q=80"
+    }
+  ],
+  "profile": {
+    "name": "Emlak API Test Kullanıcısı"
   }
-]
+}
